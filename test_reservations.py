@@ -43,6 +43,5 @@ class MainOutputTests(unittest.TestCase):
         self.assertEqual(lines[4], "Brook")
         self.assertEqual(lines[-1], 'Totalled  1 , failed  1')
 
-
 if __name__ == "__main__":
     unittest.main()
